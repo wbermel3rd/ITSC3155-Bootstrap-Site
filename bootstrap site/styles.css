@@ -1,4 +1,19 @@
 .presets{
     background-color: lightgreen;
-    
+    font-family: 'Monaco';
 }
+.header{
+    background-color: lightgray;
+    color: black
+}
+.footer{
+    font-family: 'Monaco';
+    background-color: yellow;
+    color: black
+}
+.navbar{
+    font-family: 'Monaco';
+    background-color: lightpink;
+    color: black
+}
+

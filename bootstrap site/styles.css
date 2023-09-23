@@ -33,3 +33,47 @@
 /* .navbar.navbar-expand-lg.bg-light{
     text-align: center;
 } */
+
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Adjust the height as needed */
+  }
+  .big-title {
+    font-size: 3rem; /* Adjust the font size as needed */
+    text-align: center;
+  }
+
+
+/* Custom CSS for the bottom bar */
+.bottom-bar {
+    background-color: #333; /* Background color for the bar */
+    color: white; /* Text col   or for the bar */
+    padding: 10px 0;
+}
+
+.bottom-bar .row {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-bar .row a {
+    color: white; /* Text color for the links */
+    text-decoration: none;
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+
+
+
+.main-content {
+    background-image: url('home-pic1.jpg'); /* Replace 'my-image.jpg' with your image URL */
+    background-size: contain; /* Adjust the background size to "contain" */
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 50vh; /* Set the min-height to the viewport height */
+    padding: 10px; /* Add padding to the main content */
+    margin: 50px;
+  }

@@ -17,3 +17,19 @@
     color: black
 }
 
+
+.custom-navbar {
+    background-color: yellow;
+    padding: 15px; /* Adjust the padding as needed */
+    text-align: center; /* Center-align the content */
+}
+
+/* Style for the links/buttons */
+.custom-navbar .nav-link {
+    color: #333; /* Text color */
+    margin: 5px; /* Add spacing between links/buttons */
+}
+
+/* .navbar.navbar-expand-lg.bg-light{
+    text-align: center;
+} */

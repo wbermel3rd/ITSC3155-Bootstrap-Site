@@ -53,11 +53,10 @@ margin: 15px;
 color: #ea77a1;
 }
 
-
+/* background-color: rgb(42,28,137); */
 /* Custom CSS for the bottom bar */
 .bottom-bar {
-    background-color: rgb(42,28,137);
-    /* background-color: #333; */
+    background-color: rgb(42,28,137);; /* Use rgba to set a background color with transparency */
     color: white;
     padding: 10px 0;
     position: fixed;
@@ -65,6 +64,7 @@ color: #ea77a1;
     left: 0;
     right: 0;
     width: 100%;
+    z-index: 1; /* Ensure it's above the content */
   }
 
 .bottom-bar .row {
@@ -75,7 +75,6 @@ color: #ea77a1;
     flex-wrap: wrap;
 }
 .bottom-bar .row a {
-    padding-top: 15px;
     color: white; /* Text color for the links */
     text-decoration: none;
     margin: 0 10px; 

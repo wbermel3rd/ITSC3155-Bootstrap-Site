@@ -1,5 +1,7 @@
 .presets{
-    background-color: rgb(255, 158, 252);
+    background-color: rgb(80,56,170);
+    /* background-color: rgb(150, 150, 150); */
+    /* background-color: rgb(255, 158, 252); */
     font-family: 'Monaco';
 }
 .header{
@@ -19,13 +21,16 @@
 
 
 .custom-navbar {
-    background-color: yellow;
+    background-color: #ea77a1;
+
     padding: 15px; /* Adjust the padding as needed */
     text-align: center; /* Center-align the content */
+    margin: 5px;
 }
 
 /* Style for the links/buttons */
 .custom-navbar .nav-link {
+    font-size: 20px;
     color: #333; /* Text color */
     margin: 5px; /* Add spacing between links/buttons */
 }
@@ -39,20 +44,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Adjust the height as needed */
-  }
-  .big-title {
-    font-size: 3rem; /* Adjust the font size as needed */
-    text-align: center;
-  }
+}
+
+.big-title {
+font-size: 3rem; /* Adjust the font size as needed */
+text-align: center;
+margin: 15px;
+color: #ea77a1;
+}
 
 
 /* Custom CSS for the bottom bar */
 .bottom-bar {
-    background-color: #333; /* Background color for the bar */
-    color: white; /* Text col   or for the bar */
+    background-color: rgb(42,28,137);
+    /* background-color: #333; */
+    color: white;
     padding: 10px 0;
-}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
 
 .bottom-bar .row {
     padding-top: 15px;
@@ -65,7 +78,8 @@
     padding-top: 15px;
     color: white; /* Text color for the links */
     text-decoration: none;
-    margin: 0 10px; /* Adjust the margin as needed */
+    margin: 0 10px; 
+    /* Adjust the margin as needed */
 }
 
 
@@ -83,11 +97,14 @@ img{
     display: block;
     float: right;
 }
+
 .bottom-spacing{ /* Space bottom of page from footer */
     padding-bottom: 10px;
 }
 
-#about-page{ /* Style the about page */
+
+/* Style the about page */
+#about-page{ 
     text-align: justify;
     font-size: 20px;
 }
@@ -107,5 +124,31 @@ img{
 .align-center{
     text-align: center;
     align-items: center;
-    padding: 10px
+    padding: 10px;
+    
+}
+
+.align-center a{
+    text-decoration: none;
+    color: inherit;
+
+    font-size: 25px;;
+}
+
+.align-center a:hover{
+ text-decoration: none;
+ color: #ea77a1;
+}
+
+
+
+/* submit button */
+
+.btn-primary{
+    background-color: #ea77a1;
+    font-size: 17px;
+
+}
+.btn-primary:hover{
+    background-color: #ea77a1;
 }

@@ -64,7 +64,6 @@ color: #ea77a1;
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 1; /* Ensure it's above the content */
   }
 
 .bottom-bar .row {
@@ -81,6 +80,11 @@ color: #ea77a1;
     /* Adjust the margin as needed */
 }
 
+
+
+.content-wrapper {
+    padding-bottom: 75px; /* Adjust the value to match the height of your bottom navbar */
+}
 
 .main-content {
     background-image: url('home-pic1.jpg'); /* Sets background image */

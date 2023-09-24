@@ -1,5 +1,5 @@
 .presets{
-    background-color: rgb(80,56,170);
+    background-color: rgb(209, 154, 238);
     /* background-color: rgb(150, 150, 150); */
     /* background-color: rgb(255, 158, 252); */
     font-family: 'Monaco';
@@ -21,7 +21,7 @@
 
 
 .custom-navbar {
-    background-color: #ea77a1;
+    background-color: #d7c85c;
 
     padding: 15px; /* Adjust the padding as needed */
     text-align: center; /* Center-align the content */
@@ -50,7 +50,7 @@
 font-size: 3rem; /* Adjust the font size as needed */
 text-align: center;
 margin: 15px;
-color: #ea77a1;
+color: #000000;
 }
 
 /* background-color: rgb(42,28,137); */
@@ -140,7 +140,7 @@ img{
 
 .align-center a:hover{
  text-decoration: none;
- color: #ea77a1;
+ color: #bf1515;
 }
 
 
@@ -148,10 +148,10 @@ img{
 /* submit button */
 
 .btn-primary{
-    background-color: #ea77a1;
+    background-color: #319738;
     font-size: 17px;
 
 }
 .btn-primary:hover{
-    background-color: #ea77a1;
+    background-color: #319738;
 }

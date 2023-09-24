@@ -13,7 +13,7 @@
     <link href="styles.css" rel="stylesheet">
     <title>Home</title>
 </head>
-<body>
+<body class="presets">
 
   <!-- Centered Div with Big Title -->
   <div class="container">
@@ -31,13 +31,13 @@
         <div class="container">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-            <a class="nav-link btn btn-lin" href="#">Home</a>
+            <a class="nav-link btn btn-lin" href="home.html">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link btn btn-lin" href="#">Contact Us</a>
+            <a class="nav-link btn btn-lin" href="contact.html">Contact Us</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link btn btn-lin" href="#">About</a>
+            <a class="nav-link btn btn-lin" href="about.html">About</a>
             </li>
         </ul>
         </div>
@@ -49,29 +49,37 @@
     <form>
       <div class="form-group">
         <label for="fullName">Full Name:</label>
-        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name (required)" required>
       </div>
       <div class="form-group">
         <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email address (required)" required>
       </div>
       <div class="form-group">
         <label>Comments:</label>
         <textarea class="form-control" rows="4" placeholder="Your comment"></textarea>
       </div>
+      <div>
+        <p>Please select the reason for contacting us (if not listed, select "Other" and include a comment): </p>
+      </div>
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="label1">
-        <label class="form-check-label" for="label1">Label1</label>
+        <label class="form-check-label" for="label1">Question</label>
       </div>
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="label2">
-        <label class="form-check-label" for="label2">Label2</label>
+        <label class="form-check-label" for="label2">Problem with service</label>
       </div>
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="label3">
-        <label class="form-check-label" for="label3">Label3</label>
+        <label class="form-check-label" for="label3">Other</label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="bottom-spacing">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      <div>
+
+      </div>
     </form>
   </div>
 
@@ -80,10 +88,10 @@
     <div class="container">
       <div class="row">
           <p>All rights reserved &copy; 2023</p>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Coming Soon</a>
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact Us</a>
+          <p>More coming soon...</p>
       </div>
     </div>
   </div>

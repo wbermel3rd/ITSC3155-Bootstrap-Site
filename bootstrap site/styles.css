@@ -1,5 +1,5 @@
 .presets{
-    background-color: lightgreen;
+    background-color: rgb(255, 158, 252);
     font-family: 'Monaco';
 }
 .header{
@@ -55,25 +55,57 @@
 }
 
 .bottom-bar .row {
+    padding-top: 15px;
     text-align: center;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 .bottom-bar .row a {
+    padding-top: 15px;
     color: white; /* Text color for the links */
     text-decoration: none;
     margin: 0 10px; /* Adjust the margin as needed */
 }
 
 
-
 .main-content {
-    background-image: url('home-pic1.jpg'); /* Replace 'my-image.jpg' with your image URL */
+    background-image: url('home-pic1.jpg'); /* Sets background image */
     background-size: contain; /* Adjust the background size to "contain" */
     background-repeat: no-repeat;
     background-position: center;
     min-height: 50vh; /* Set the min-height to the viewport height */
     padding: 10px; /* Add padding to the main content */
     margin: 50px;
-  }
+}
+
+img{
+    display: block;
+    float: right;
+}
+.bottom-spacing{ /* Space bottom of page from footer */
+    padding-bottom: 10px;
+}
+
+#about-page{ /* Style the about page */
+    text-align: justify;
+    font-size: 20px;
+}
+.align-right{
+    text-align: right;
+    align-items: right;
+    
+    margin-right: 25px;
+    padding: 10px;
+}
+.align-left{
+    text-align: left;
+    align-items: left;
+    margin-left: 25px;
+    padding: 10px;
+}
+.align-center{
+    text-align: center;
+    align-items: center;
+    padding: 10px
+}
